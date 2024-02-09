@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: LB Tech Services
+email: lbtechservicesllc@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+LB Tech Services stands at the forefront of cybersecurity, offering unparalleled expertise in the protection of digital assets and information technology environments. As a dedicated cybersecurity company, LB Tech Services specializes in a comprehensive range of services tailored to address the most pressing security challenges faced by businesses and organizations today.
+Security Research Consultancy
+At the heart of LB Tech Services' offerings is its security research consultancy, a service designed to keep clients ahead of the cybersecurity curve. The consultancy leverages cutting-edge research and in-depth analysis to identify potential vulnerabilities, emerging threats, and innovative defense mechanisms. By staying at the forefront of cybersecurity research, LB Tech Services ensures that its clients are equipped with the knowledge and strategies needed to maintain robust security postures.
+Red Team Operations
+LB Tech Services' Red Team operations provide an offensive security measure that simulates real-world cyberattacks on organizations' IT infrastructures. This proactive approach allows clients to understand their weaknesses and fortify their defenses against actual threats. By employing tactics, techniques, and procedures (TTPs) used by adversaries, LB Tech Services' Red Team helps organizations significantly improve their security readiness and resilience.
+Pentesting and OWASP Top 10
+Penetration testing, or pentesting, is another critical service offered by LB Tech Services. By conducting comprehensive assessments based on the OWASP Top 10 vulnerabilities, LB Tech Services identifies and exploits security vulnerabilities within clients' networks, applications, and systems. This process enables organizations to understand their security vulnerabilities from an attacker's perspective, facilitating the development of effective mitigation strategies.
+Development of Security-Focused Tools
+Understanding the unique challenges faced by organizations, LB Tech Services also specializes in the development of custom security-focused tools. These tools are designed to enhance the security of IT environments, automate security processes, and provide organizations with the capabilities needed to detect, respond to, and prevent cyber threats efficiently.
+SOCs/SIEMs Implementations
+The implementation of Security Operations Centers (SOCs) and Security Information and Event Management (SIEM) systems forms a cornerstone of LB Tech Services' offerings. By designing and deploying SOCs and SIEMs, LB Tech Services enables real-time monitoring, detection, and analysis of security events. This service ensures that organizations can rapidly identify and respond to threats, minimizing the risk of data breaches and cyberattacks.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lbtech.link" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  lbtechservicesllc
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
